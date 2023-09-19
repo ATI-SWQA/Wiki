@@ -9,7 +9,7 @@ jobs:
   update_release_draft:
     runs-on: ubuntu-latest  #ubuntu OS에서 실행됨
     steps:
-      - uses: release-drafter/release-drafter@v5  #Release-drafter의 v5를 이용
+      - uses: release-drafter/release-drafter@v2  #Release-drafter의 v5를 이용
         # (Optional)
         # workflow 에서 여러 구성이 필요할 때 config-name 에 오버라이드 해줍니다.
         # 반드시 .github/ 에 위치해야합니다.
